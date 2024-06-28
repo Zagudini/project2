@@ -56,6 +56,27 @@
     </div>
   </header>
   <main>
+    <section class="introduce">
+      <div class="container introduce_container">
+        <h1 class="introduce_item introduce_item1">
+          Внедряем практики
+          <span class="title_colored_h1 title_colored">DevOps</span>
+        </h1>
+        <img class="introduce_item introduce_item2" src="images/others/introduce_img1.png" alt="image" />
+        <img class="introduce_item introduce_item3" src="images/photos/introduce_photo1.png" alt="photo" />
+        <img class="introduce_item introduce_item4" src="images/others/introduce_square3.png" alt="image" />
+        <img class="introduce_item introduce_item5" src="images/others/introduce_square1.png" alt="image" />
+        <img class="introduce_item introduce_item6" src="images/photos/introduce_photo2.png" alt="photo" />
+        <img class="introduce_item introduce_item7" src="images/others/introduce_img2.png" alt="image" />
+        <img class="introduce_item introduce_item8" src="images/others/introduce_square4.png" alt="image" />
+        <img class="introduce_item introduce_item9" src="images/others/introduce_square2.png" alt="image" />
+        <img class="introduce_item introduce_item10" src="images/photos/introduce_photo3.png" alt="photo" />
+        <p class="introduce_item introduce_item11">
+          Обеспечиваем&nbsp;прозрачность и&nbsp;автоматизацию разработки
+          в&nbsp;стартапах и крупном бизнесе
+        </p>
+      </div>
+    </section>
     <div class="container_white">
       <section class="solutions">
         <div class="container solutions_container">
@@ -63,7 +84,7 @@
             Решения и <span class="title_colored">услуги</span>
           </h2>
           <div class="solutions_articles">
-              <article class="solutions_article solutions_article_photo solutions_item">
+            <article class="solutions_article solutions_article_photo solutions_item">
                 <img src="images/photos/solutions.png" alt="solutions photo" />
                 <div class="text_article_photo">
                 <h3>Внедрение CI&CD</h3>
@@ -72,6 +93,24 @@
                   призводительность и ускорим процесс разработки
                 </p>
               </div>
+            </article>
+            <article class="solutions_article solutions_item solutions_article_column">
+              <img src="images/icons/tune.svg" alt="tune icon" />
+              <h3>Настройка систем оркестрации</h3>
+              <p>
+                Автоматизируем планирование, развертывания, масштабируемости,
+                балансировки нагрузки, доступности и организации сетей
+                контейнеров
+              </p>
+            </article>
+            <article class="solutions_article solutions_item solutions_article_column">
+              <img src="images/icons/monitoring.svg" alt="monitoring icon" />
+              <h3>Мониторинг IT-инфраструктуры</h3>
+              <p>
+                Сбор и анализ параметров системы. Обнаружение неполадок в
+                отдельных сервисах и оценка их влияния на все Ит-инфраструктры
+              </p>
+            </article>
               </article>
               <article class="solutions_article solutions_item solutions_article_column">
                 <img src="images/icons/tune.svg" alt="tune icon" />
@@ -146,6 +185,38 @@
               долговременные отношения
             </p>
           </article>
+        </div>
+      </section>
+      <section class="feedback">
+        <div class="container feedback_container">
+          <div class="feedback_row">
+            <h2>Оставьте заявку на&nbsp;обратный звонок</h2>
+            <p class="feedback_text">
+              Наши специалисты свяжутся с вами в&nbsp; ближайшее время и
+              ответят на все интересующие&nbsp;вас вопросы
+            </p>
+          </div>
+          <div class="feedback_row">
+            <form class="feedback_form" action="#">
+              <label for="name">
+                <input class="feedback_form_name" type="text" name="name" id="name" placeholder="Имя" required />
+              </label>
+              <label for="phone">
+                <input class="feedback_form_phone" type="tel" name="phone" id="phone" placeholder="Телефон" required />
+              </label>
+              <label for="message">
+                <textarea class="feedback_form_message" name="message" id="message"
+                  placeholder="Сообщение (не обязательно)"></textarea>
+              </label>
+              <label for="checkbox">
+                <input class="feedback_form_checkbox" type="checkbox" name="checkbox" id="checkbox" required />
+                <span class="checkbox_text">Я даю согласие на обработку персональных данных</span>
+              </label>
+              <button class="feedback_form_button button_type1 hover_type1" type="submit">
+                Отправить
+              </button>
+            </form>
+          </div>
         </div>
       </section>
     </div>
