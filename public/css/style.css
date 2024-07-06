@@ -14,9 +14,9 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 4px;
+  width: 8px;
   /* Ширина всего элемента навигации */
-  height: 4px;
+  height: 8px;
 }
 
 body::-webkit-scrollbar-track {
@@ -156,7 +156,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
 }
 
 .header_social_link img {
@@ -164,26 +163,9 @@ p {
   width: 22px;
 }
 
-.social_link > img {
-  position: relative;
-  z-index: 1;
-}
-
-.social_link:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #4c30f6;
-  border-radius: 10px;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
-.social_link:hover:after {
-  opacity: 1;
+.social_link:hover {
+  background: linear-gradient(135deg, #4526dc 0%, #8066ff 100%),
+    rgba(52, 51, 60, 0.3);
 }
 
 .mail_link {
@@ -239,29 +221,11 @@ p {
   white-space: nowrap;
   color: #ffffff;
   cursor: pointer;
-  position: relative;
 }
 
-.button_type1 > span {
-  position: relative;
-  z-index: 1;
-}
-.button_type1:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: #ffffff;
-  background: #4c30f6;
-  border-radius: 10px;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
-.button_type1:hover:after {
-  opacity: 1;
+.button_type1:hover {
+  background: linear-gradient(135deg, #4526dc 0%, #8066ff 100%),
+    rgba(52, 51, 60, 0.3);
 }
 
 .container_white {
