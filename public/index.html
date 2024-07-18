@@ -246,6 +246,35 @@
       </div>
     </div>
   </footer>
+  <div class="popup_wrapper">
+    <div class="popup_feedback">
+      <button class="popup_close_button">
+        <img src="images/icons/cross.svg" alt="Cross">
+      </button>
+      <div class="popup_content">
+        <form action="#" class="feedback_form">
+          <h3 class="popup_title">Заявка на обратный звонок</h3>
+          <label>
+            <input class="feedback_form_name" type="text" name="name" placeholder="Имя" required />
+          </label>
+          <label>
+            <input class="feedback_form_phone" type="tel" name="phone" placeholder="Телефон" required />
+          </label>
+          <label>
+            <textarea class="feedback_form_message" name="message" placeholder="Сообщение (не обязательно)"></textarea>
+          </label>
+          <label class="feedback_form_checkbox">
+            <input class="hidden_checkbox" type="checkbox" name="checkbox" required />
+            <span class="custom_checkbox"></span>
+            Я даю согласие на обработку персональных данных
+          </label>
+          <button class="popup_form_button button_type1 type=" submit">
+            <span>Отправить</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
